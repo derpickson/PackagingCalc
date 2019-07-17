@@ -207,9 +207,10 @@ namespace MingoPackaging
             //bar name line
             gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 0.85) * marginppi), (10.25 * marginppi), ((topmargin + 0.85) * marginppi));
             //flavor line
-            gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 1.15) * marginppi), (10.25 * marginppi), ((topmargin + 1.15) * marginppi));
+            //gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 1.15) * marginppi), (10.25 * marginppi), ((topmargin + 1.15) * marginppi));
             //relm line
-            gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 1.45) * marginppi), (10.25 * marginppi), ((topmargin + 1.45) * marginppi));
+            gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 1.15) * marginppi), (10.25 * marginppi), ((topmargin + 1.15) * marginppi));
+            //gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 1.45) * marginppi), (10.25 * marginppi), ((topmargin + 1.45) * marginppi));
             //CL&D line
             gfx.DrawLine(XPens.Black, (8.25 * marginppi), ((topmargin + 2.5) * marginppi), (10.25 * marginppi), ((topmargin + 2.5) * marginppi));
             //approver 1 line
@@ -273,9 +274,10 @@ namespace MingoPackaging
             //bar name label
             gfx.DrawString("Flavor:   " + flavor, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 0.7) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
             //flavor label
-            gfx.DrawString("RELM#:   " + relmtoolnumber, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 1.0) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
+            //gfx.DrawString("RELM#:   " + relmtoolnumber, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 1.0) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
             //relm toolnumber label
-            gfx.DrawString("CL&D#:   " + CLDtoolnumber, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 1.3) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
+            gfx.DrawString("CL&D#:   " + CLDtoolnumber, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 1.0) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
+            //gfx.DrawString("CL&D#:   " + CLDtoolnumber, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 1.3) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
             //CL&D toolnumber label
             gfx.DrawString("Approver: " + approver1, font2, XBrushes.Black, new XRect((8.25 * marginppi), ((topmargin + 2) * marginppi), (2 * marginppi), (0.5 * marginppi)), XStringFormats.TopLeft);
             //approver 1 name label

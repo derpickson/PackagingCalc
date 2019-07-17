@@ -200,14 +200,14 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Location = new System.Drawing.Point(244, 10);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(305, 166);
+            this.panel1.Size = new System.Drawing.Size(305, 130);
             this.panel1.TabIndex = 22;
             // 
             // txtCLD
             // 
             this.txtCLD.Enabled = false;
             this.txtCLD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCLD.Location = new System.Drawing.Point(121, 129);
+            this.txtCLD.Location = new System.Drawing.Point(121, 97);
             this.txtCLD.Name = "txtCLD";
             this.txtCLD.Size = new System.Drawing.Size(174, 26);
             this.txtCLD.TabIndex = 9;
@@ -216,16 +216,17 @@
             // 
             this.txtRelm.Enabled = false;
             this.txtRelm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRelm.Location = new System.Drawing.Point(121, 97);
+            this.txtRelm.Location = new System.Drawing.Point(121, 129);
             this.txtRelm.Name = "txtRelm";
             this.txtRelm.Size = new System.Drawing.Size(174, 26);
             this.txtRelm.TabIndex = 8;
+            this.txtRelm.Visible = false;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(8, 132);
+            this.label13.Location = new System.Drawing.Point(8, 100);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(99, 20);
             this.label13.TabIndex = 7;
@@ -234,12 +235,14 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.Enabled = false;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(8, 100);
+            this.label11.Location = new System.Drawing.Point(8, 132);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(93, 20);
             this.label11.TabIndex = 6;
             this.label11.Text = "Relm Tool #";
+            this.label11.Visible = false;
             // 
             // txtRepeat
             // 
@@ -442,7 +445,6 @@
         private System.Windows.Forms.TextBox txtCLD;
         private System.Windows.Forms.TextBox txtRelm;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label ast1;
         private System.Windows.Forms.Label ast2;
         private System.Windows.Forms.Label ast3;
@@ -450,6 +452,7 @@
         private System.Windows.Forms.Label ast6;
         private System.Windows.Forms.Button btnExport;
         private System.Windows.Forms.Button btnMasterCase;
+        private System.Windows.Forms.Label label11;
     }
 }
 
