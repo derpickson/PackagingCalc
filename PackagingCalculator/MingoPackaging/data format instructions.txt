@@ -1,0 +1,4 @@
+replace (regular expressions):
+$	"},
+^	{"
+\t	",\t"
